@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const helmet = require('helmet');
 const cookieParser = require('cookie-parser');
 const { celebrate, Joi, errors } = require('celebrate');
+const cors = require('cors');
 const auth = require('./middlewares/auth');
 
 const app = express();
@@ -16,6 +17,14 @@ const errorCentral = require('./middlewares/error-central');
 const regexUrl = require('./utils/constants');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
+app.use(cors({
+  origin: ['http://localhost:3000', 'http://adrinalinemesto.nomoredomainsicu.ru', 'https://adrinalinemesto.nomoredomainsicu.ru'],
+  methods: ['GET', 'PUT', 'POST', 'PATCH', 'DELETE'],
+  credentials: true,
+  optionsSuccessStatus: 200,
+  maxAge: 30,
+}));
+
 mongoose.connect('mongodb://0.0.0.0:27017/mestodb');
 
 app.use(bodyParser.json());
@@ -23,6 +32,12 @@ app.use(helmet());
 app.use(cookieParser());
 
 app.use(requestLogger);
+
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
 
 app.post('/signin', celebrate({
   body: Joi.object().keys({

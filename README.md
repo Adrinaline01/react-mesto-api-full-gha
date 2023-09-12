@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP 158.160.28.108
 
-Frontend https://...
+Frontend https://adrinalinemesto.nomoredomainsicu.ru
 
-Backend https://...
+Backend https://api.adrinalinemesto.nomoredomainsicu.ru
