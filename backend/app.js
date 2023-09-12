@@ -18,7 +18,7 @@ const regexUrl = require('./utils/constants');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://adrinalinemesto.nomoredomainsicu.ru', 'https://adrinalinemesto.nomoredomainsicu.ru'],
+  origin: ['http://localhost:3000', 'http://localhost:3001', 'http://adrinalinemesto.nomoredomainsicu.ru', 'https://adrinalinemesto.nomoredomainsicu.ru'],
   methods: ['GET', 'PUT', 'POST', 'PATCH', 'DELETE'],
   credentials: true,
   optionsSuccessStatus: 200,
