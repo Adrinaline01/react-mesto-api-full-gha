@@ -1,0 +1,9 @@
+.cards__removal {
+  width: 18px;
+  border: 0;
+  height: 19px;
+  position: absolute;
+  background-image: url(../../../images/trash.svg);
+  right: 20px;
+  top: 20px;
+}
