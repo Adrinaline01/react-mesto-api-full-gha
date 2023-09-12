@@ -108,7 +108,7 @@ class Api {
 }
 
 const api = new Api({
-  baseUrl: 'https://mesto.nomoreparties.co/v1/cohort-65',
+  baseUrl: 'https://api.adrinalinemesto.nomoredomainsicu.ru',
   headers: {
     authorization: 'bdaf5f64-aca0-47b5-811d-20bc0a7efcbb',
     'Content-Type': 'application/json'
