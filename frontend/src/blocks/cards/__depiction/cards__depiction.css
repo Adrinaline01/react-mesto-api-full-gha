@@ -1,0 +1,6 @@
+.cards__depiction {
+  display: flex;
+  justify-content: space-between;
+  margin: 19px 15px 25px 21px;
+  width: 240px;
+}

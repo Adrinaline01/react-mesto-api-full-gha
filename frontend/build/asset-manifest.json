@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bb305f19.css",
+    "main.js": "/static/js/main.63a15ef4.js",
+    "static/js/787.5530211c.chunk.js": "/static/js/787.5530211c.chunk.js",
+    "static/media/Inter-Medium.woff?v=3.19": "/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff?v=3.19": "/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff?v=3.19": "/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2?v=3.19": "/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2?v=3.19": "/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2?v=3.19": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/logo.svg": "/static/media/logo.6b25869fc95f3675c745210e522e163a.svg",
+    "static/media/like.svg": "/static/media/like.1ad06e85f169668a1f36.svg",
+    "index.html": "/index.html",
+    "static/media/UnionErrorImage.svg": "/static/media/UnionErrorImage.be9f1da932ebc0d23378146738c5bd81.svg",
+    "static/media/trash.svg": "/static/media/trash.ce3b64935accf9b8212e.svg",
+    "static/media/UnionCorrectImage.svg": "/static/media/UnionCorrectImage.8aadaf7732828d90427d4297a82b6fda.svg",
+    "static/media/like_active.svg": "/static/media/like_active.dd6a61e81552be95f4b7.svg",
+    "static/media/edit-avatar-pen.svg": "/static/media/edit-avatar-pen.1ac9a3aa310a8b72833ccdcccd71e07c.svg",
+    "static/media/edit_button.svg": "/static/media/edit_button.6c7bf05444b9793fdf6e.svg",
+    "static/media/close-btn.svg": "/static/media/close-btn.039f1f5203f653b4bacd.svg",
+    "static/media/add_button.svg": "/static/media/add_button.d5d6f8af0577b9c95ee4.svg",
+    "main.bb305f19.css.map": "/static/css/main.bb305f19.css.map",
+    "main.63a15ef4.js.map": "/static/js/main.63a15ef4.js.map",
+    "787.5530211c.chunk.js.map": "/static/js/787.5530211c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb305f19.css",
+    "static/js/main.63a15ef4.js"
+  ]
+}

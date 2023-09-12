@@ -1,0 +1,7 @@
+.cards__item {
+  position: relative;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: #ffff;
+  max-width: 282px;
+}
