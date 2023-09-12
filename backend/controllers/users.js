@@ -72,6 +72,10 @@ const login = (req, res, next) => {
     .catch(next);
 };
 
+const logout = (req, res) => {
+  res.clearCookie('token').send({ message: 'Вы вышли из аккаунта' });
+};
+
 const getUsers = (req, res, next) => {
   User.find({})
     .then((users) => {
@@ -142,4 +146,5 @@ module.exports = {
   updateProfileUser,
   updateAvatarUser,
   login,
+  logout,
 };

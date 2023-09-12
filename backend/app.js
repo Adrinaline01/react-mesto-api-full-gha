@@ -10,7 +10,7 @@ const auth = require('./middlewares/auth');
 const app = express();
 
 const usersRouter = require('./routes/users');
-const { login, createUser } = require('./controllers/users');
+const { login, createUser, logout } = require('./controllers/users');
 const cardsRouter = require('./routes/cards');
 const ErrorNotFound = require('./errors/error-not-found');
 const errorCentral = require('./middlewares/error-central');
@@ -54,6 +54,8 @@ app.post('/signup', celebrate({
     password: Joi.string().required().min(8),
   }),
 }), createUser);
+
+app.post('/signout', logout);
 
 app.use(auth);
 
